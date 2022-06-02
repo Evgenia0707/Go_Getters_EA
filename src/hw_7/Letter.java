@@ -1,4 +1,4 @@
-package hw_4;
+package hw_7;
 
 public class Letter {
     public static void main(String[] args) {
@@ -7,6 +7,7 @@ public class Letter {
 //        String str = "bbddeeaffgi";
         str = str.toLowerCase();
         String unique = "";
+
 
         for (int j = 0; j < str.length(); j++) {//check every character in the string (iterate over string)
             char ch = str.charAt(j);//temp container for currant char at index J of the string
