@@ -1,7 +1,7 @@
 package day_0720.fundsException;
 
 public class InsufficientFundsException extends Exception {
-    private double amount;//2create var for getAmount90 to return
+    private double amount;//2create var for getAmount() to return
 
     public InsufficientFundsException(double amount) {//3required argument constructor
         this.amount = amount;

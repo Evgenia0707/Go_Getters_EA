@@ -12,12 +12,12 @@ public class CheckingAccount {
         balance += amount;
     }
 
-    public void withdraw(double amount) throws InsufficientFundsException {
+    public void withdraw(double amount) throws InsufficientFundsException {//create for snow user
         if(amount <= balance) {
             balance -= amount;
         }else {
             double needs = amount - balance;
-            throw new InsufficientFundsException(needs);
+            throw new InsufficientFundsException(needs);//
         }
     }
 

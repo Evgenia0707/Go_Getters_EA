@@ -15,7 +15,7 @@ public class BankDemo {
             c.withdraw(100.00);
             System.out.println("\nWithdrawing from Account Number " + c.getAccountNumber() + " $600...");
             c.withdraw(600.00);
-        } catch (InsufficientFundsException e) {
+        } catch (InsufficientFundsException e) {//create obj
             System.out.println("Sorry, but you are short $" + e.getAmount());
             e.printStackTrace();
         }
