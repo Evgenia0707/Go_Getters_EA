@@ -1,6 +1,6 @@
 package hw_7;
 
-public class Vowel {
+public class nonRepVowel {
     public static void main(String[] args) {
 
 
